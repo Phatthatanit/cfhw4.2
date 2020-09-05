@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 int main() {
-	int x[3], sum{};
+	int x[3], sum=0;
 	for (int i = 0; i < 3; i++) {
 		printf("number %d : ", i+1);
 		scanf("%d", &x[i]);
