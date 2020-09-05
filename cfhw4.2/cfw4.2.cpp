@@ -2,8 +2,8 @@
 #include<stdio.h>
 int main() {
 	int x[3], sum{};
-	for (int i = 1; i <= 3; i++) {
-		printf("number %d : ", i);
+	for (int i = 0; i < 3; i++) {
+		printf("number %d : ", i+1);
 		scanf("%d", &x[i]);
 		sum += x[i];
 		for (int j = 1; j <= x[i]; j++) {
