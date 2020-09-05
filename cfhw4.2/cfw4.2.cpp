@@ -15,5 +15,6 @@ int main() {
 	for (int z = 1; z <= sum; z++) {
 		printf("|");
 	}
+	return 0;
 }
 
